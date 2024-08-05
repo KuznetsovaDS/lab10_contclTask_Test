@@ -7,20 +7,20 @@ using namespace std;
 int main() {
     system("chcp 1251");
 
-    cout << "Êîìïîçèöèÿ " << endl;
+    cout << "ÐšÐ¾Ð¼Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ñ " << endl;
     Triangle t1(0, 0, 0, 4, 4, 0);
     t1.printSides();
-    cout << "Ïåðèìåòð " << t1.perimeter() << endl;
-    cout << "Ïëîùàäü " << t1.area() << endl;
+    cout << "ÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€ " << t1.perimeter() << endl;
+    cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ " << t1.area() << endl;
 
-    cout << "\nÀãðåãàöèÿ " << endl;
+    cout << "\nÐÐ³Ñ€ÐµÐ³Ð°Ñ†Ð¸Ñ " << endl;
     Dot a(0, 0);
     Dot b(0, 4);
     Dot c(4, 0);
     Triangle t2(&a, &b, &c);
     t2.printSides();
-    cout << "Ïåðèìåòð " << t2.perimeter() << endl;
-    cout << "Ïëîùàäü " << t2.area() << endl;
+    cout << "ÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€ " << t2.perimeter() << endl;
+    cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ " << t2.area() << endl;
 
     return 0;
 }
