@@ -13,14 +13,14 @@ Triangle::Triangle(Dot* a, Dot* b, Dot* c)
 
 void Triangle::printSides() {
     if (is_aggregation) {
-        cout << "расстояние a-b " << a_agg->distanceTo(*b_agg) << endl;
-        cout << "расстояние b-c " << b_agg->distanceTo(*c_agg) << endl;
-        cout << "расстояние c-a " << c_agg->distanceTo(*a_agg) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ a-b " << a_agg->distanceTo(*b_agg) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ b-c " << b_agg->distanceTo(*c_agg) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ c-a " << c_agg->distanceTo(*a_agg) << endl;
     }
     else {
-        cout << "расстояние a-b " << a.distanceTo(b) << endl;
-        cout << "расстояние b-c " << b.distanceTo(c) << endl;
-        cout << "расстояние c-a " << c.distanceTo(a) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ a-b " << a.distanceTo(b) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ b-c " << b.distanceTo(c) << endl;
+        cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ c-a " << c.distanceTo(a) << endl;
     }
 }
 
